@@ -15,3 +15,6 @@ source env.sh
 
 See also the [Rock documentation][http://rock-robotics.org/documentation] and
 especially the [Rock tutorials](http://rock-robotics.org/stable/documentation/tutorials/index.html)
+
+Another useful page for general system setup using Rock:
+http://rock.opendfki.de/trac/wiki/WikiStart/Toolchain/MultipleInstalls
