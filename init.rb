@@ -29,3 +29,5 @@ Autoproj.gitorious_server_configuration('GITHUB', 'github.com', :http_url => 'ht
 
 Autoproj.env_inherit 'CMAKE_PREFIX_PATH'
 
+Autoproj.env_set 'TYPELIB_CXX_LOADER', 'castxml'
+Autoproj.config.set 'ROCK_SELECTED_FLAVOR', 'master'
