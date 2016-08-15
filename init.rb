@@ -31,3 +31,4 @@ Autoproj.env_inherit 'CMAKE_PREFIX_PATH'
 
 Autoproj.env_set 'TYPELIB_CXX_LOADER', 'castxml'
 Autoproj.config.set 'ROCK_SELECTED_FLAVOR', 'master', true
+Autoproj.config.set 'USE_OCL', false, true
