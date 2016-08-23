@@ -8,12 +8,14 @@ package_sets:
    - github: rock-core/rock-package_set
    - github: rock-tutorials/tutorials-package_set
    - github: thirteenltda/repsol.heads-package_set
+   - github: Brazilian-Institute-of-Robotics/bir.flat_fish-package_set
 
 # Layout. Note that the rock.base and orocos.toolchain sets are
 # imported by other rock sets.
 layout:
    - rock.core
    - repsol.heads
+   - simulation/rock_gazebo
 
 # The layout section specifies what to build, and where to build it (as a
 # subdirectory of the root installation directory). In the example below, all
