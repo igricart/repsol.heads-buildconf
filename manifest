@@ -16,6 +16,7 @@ layout:
    - rock.core
    - repsol.heads
    - simulation/rock_gazebo
+   - gui/collada_osg
 
 # The layout section specifies what to build, and where to build it (as a
 # subdirectory of the root installation directory). In the example below, all
