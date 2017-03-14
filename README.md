@@ -12,6 +12,8 @@ cd dev/heads
 wget https://raw.githubusercontent.com/rock-core/autoproj/master/bin/autoproj_bootstrap
 ruby autoproj_bootstrap git https://github.com/thirteenltda/repsol.heads-buildconf
 source env.sh
+aup
+amake
 ```
 
 See also the [Rock documentation][http://rock-robotics.org/documentation] and
