@@ -3,6 +3,6 @@
 - tools/metaruby:
     branch: syskit2-test-refactoring
 - tools/roby:
-    branch: roby3-test-refactoring
+    branch: roby3
 - tools/syskit:
     branch: syskit2-test-refactoring
