@@ -1,2 +1,6 @@
 - base/cmake:
   branch: export_cxx11_in_pkgconfig_files
+- drivers/imu_advanced_navigation_anpp:
+  branch: first_version
+- drivers/orogen/imu_advanced_navigation_anpp:
+  branch: first_version

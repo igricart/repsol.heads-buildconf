@@ -1,6 +1,0 @@
-- tools/metaruby:
-    branch: syskit2-test-refactoring
-- tools/roby:
-    branch: ide_improvements
-- tools/syskit:
-    branch: ide_improvements
