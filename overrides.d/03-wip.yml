@@ -4,3 +4,5 @@
   branch: first_version
 - drivers/orogen/imu_advanced_navigation_anpp:
   branch: first_version
+- tools/orocos.rb:
+  branch: optimize_configuration_loading_for_large_arrays_of_numerics
