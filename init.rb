@@ -11,3 +11,5 @@ Autoproj.isolate_environment
 Autobuild::CMake.show_make_messages = true
 
 Autoproj.config.set 'ROCK_SELECTED_FLAVOR', 'master', true
+
+Autobuild::CMake.generator = "Eclipse CDT4 - Unix Makefiles"
