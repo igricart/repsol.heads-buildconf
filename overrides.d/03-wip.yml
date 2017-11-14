@@ -6,5 +6,3 @@
   branch: first_version
 - tools/orocos.rb:
   branch: optimize_configuration_loading_for_large_arrays_of_numerics
-- control/kdl_parser:
-  branch: fix_root_segment_inertia
