@@ -1,0 +1,53 @@
+#
+# Informations about the manifest of autoproj can be found here:
+# http://www.rock-robotics.org/documentation/autoproj/customization.html
+#
+
+package_sets:
+   - github: rock-core/package_set
+   - github: rock-core/rock-package_set
+   - github: rock-tutorials/tutorials-package_set
+   - github: rock-gazebo/package_set
+   - github: thirteenltda/repsol.heads-package_set
+   # Uncomment to enable the Rock/ROS bridge
+   # You will also have to uncomment some lines in the layout below
+   # - gitorious: rock-ros/package_set
+
+# Layout. Note that the rock.base and orocos.toolchain sets are
+# imported by other rock sets.
+layout:
+   - repsol.heads.navbox
+   # Uncomment to enable the Rock/ROS bridge
+   # You will also have to uncomment some lines in the package_sets above
+   # - rock.ros
+   # Uncomment to checkout and build all tutorials  
+   # - rock.tutorials    
+
+exclude_packages:
+   - gui/.*
+   - simulation/orogen/rock_gazebo
+
+# Package exclusion: packages can be completely excluded from the build. This is
+# an alternative way than using the layout.
+#
+# Useful if you want to enable a whole package set except a few packages, or if
+# you want to exclude some package's optional dependencies.
+#
+# exclude_packages:
+# - gui/.*
+
+# Ignoring packages: assume that some packages are present on disk. Unlike
+# exclude_packages, autoproj will not generate an error if a non-excluded
+# package depends on an ignored one, but it will not include the package and its
+# dependencies in the build.
+#
+# For instance, if one assumes that the 'rtt' package is already available on
+# the machine *and* you're confident that picking it outside of the workspace
+# won't create problems, then simply do:
+#
+# Note that using this obviously hinders repeatability of the build
+#
+# ignored_packages:
+# - rtt
+#
+
