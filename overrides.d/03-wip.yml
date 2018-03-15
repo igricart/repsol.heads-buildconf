@@ -2,3 +2,5 @@
   branch: support_orogen_master_slave_deployments
 - drivers/canbus:
   branch: ftdi
+- simulation/rock_gazebo:
+  branch: reuse_argument_to_use_gazebo_model
