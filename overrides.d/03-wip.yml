@@ -1,5 +1,3 @@
-- tools/syskit:
-  branch: support_orogen_master_slave_deployments
 - drivers/canbus:
   branch: ftdi
 - simulation/rock_gazebo:
