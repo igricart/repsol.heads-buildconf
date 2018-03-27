@@ -1,4 +1,7 @@
 - drivers/canbus:
   branch: ftdi
+- drivers/orogen/canbus:
+  branch: new_style_headers
 - simulation/rock_gazebo:
   branch: reuse_argument_to_use_gazebo_model
+
