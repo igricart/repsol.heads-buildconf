@@ -8,6 +8,7 @@ package_sets:
    - github: rock-core/rock-package_set
    - github: rock-tutorials/tutorials-package_set
    - github: rock-gazebo/package_set
+   - github: thirteenltda/13r.common-package_set
    - github: thirteenltda/repsol.heads-package_set
    # Uncomment to enable the Rock/ROS bridge
    # You will also have to uncomment some lines in the layout below
