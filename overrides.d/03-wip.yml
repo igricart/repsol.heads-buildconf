@@ -1,5 +1,2 @@
 - drivers/canbus:
-  branch: ftdi
-- drivers/orogen/canbus:
-  branch: new_style_headers
-
+  branch: add_easysync_support
