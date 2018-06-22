@@ -9,6 +9,9 @@ package_sets:
    - github: rock-gazebo/package_set
    - github: thirteenltda/13r.common-package_set
    - github: thirteenltda/repsol.heads-package_set
+   # Uncomment to install packages necessary for the VSCode integration
+   # Also uncommon the rock.vscode.gems item in the layout
+   # - github: rock-core/rock.vscode-package_set
 
 # Layout. Note that the rock.base and orocos.toolchain sets are
 # imported by other rock sets.
@@ -16,6 +19,7 @@ layout:
    - rock.core
    - rock.gazebo
    - repsol.heads
+   # - rock.vscode.gems
 
 # Package exclusion: packages can be completely excluded from the build. This is
 # an alternative way than using the layout.
@@ -40,4 +44,3 @@ layout:
 # ignored_packages:
 # - rtt
 #
-
