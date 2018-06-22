@@ -19,6 +19,7 @@ exclude_packages:
    - gui/.*
    - simulation/orogen/rock_gazebo
    - qtruby
+   - simulation/gazebo
 
 # Package exclusion: packages can be completely excluded from the build. This is
 # an alternative way than using the layout.
