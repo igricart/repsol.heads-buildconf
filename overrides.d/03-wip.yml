@@ -1,2 +1,4 @@
 - drivers/orogen/canbus:
     branch: remove_explicit_setReadTimeout
+- base/orogen/types:
+    branch: export_joint_state_mode
