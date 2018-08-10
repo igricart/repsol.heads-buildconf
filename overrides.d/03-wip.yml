@@ -1,2 +1,6 @@
 - base/orogen/types:
     branch: export_joint_state_mode
+- control/kdl:
+    github: GuilhermePSC/orocos_kinematics_dynamics
+- control/kdl_parser:
+    github: GuilhermePSC/control-kdl_parser
