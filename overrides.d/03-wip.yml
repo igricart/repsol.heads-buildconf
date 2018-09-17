@@ -4,3 +4,7 @@
     github: GuilhermePSC/orocos_kinematics_dynamics
 - control/kdl_parser:
     github: GuilhermePSC/control-kdl_parser
+- tools/syskit:
+    branch: fix_regressions
+- drivers/motors_elmo_ds402:
+    branch: heads_bugfixes
