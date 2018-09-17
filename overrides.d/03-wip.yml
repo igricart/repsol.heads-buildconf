@@ -1,7 +1,5 @@
 - base/orogen/types:
     branch: export_joint_state_mode
-- tools/syskit:
-    branch: droby_fix_ordering_bug
 - control/kdl:
     github: GuilhermePSC/orocos_kinematics_dynamics
 - control/kdl_parser:
