@@ -11,3 +11,7 @@
     branch: old_filter
 - control/orogen/heads_control:
     branch: old_filter
+- tools/roby:
+    branch: app_registration
+- tools/syskit:
+    branch: roby_app_registration
