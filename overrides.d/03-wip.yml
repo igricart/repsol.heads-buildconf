@@ -3,7 +3,9 @@
 - control/kdl_parser:
     github: GuilhermePSC/control-kdl_parser
 
+- tools/orocos.rb:
+    branch: poa_adapter
 - tools/roby:
     branch: app_registration
 - tools/syskit:
-    branch: roby_app_registration
+    branch: heads
