@@ -5,10 +5,5 @@
 
 - tools/orocos.rb:
     branch: poa_adapter
-- tools/roby:
-    branch: app_registration
 - tools/syskit:
     branch: heads
-
-- drivers/gps_base:
-    branch: cov_position_zero
