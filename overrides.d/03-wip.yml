@@ -5,3 +5,7 @@
 
 - tools/syskit:
     branch: heads
+
+- control/orogen_auv_control:
+    github: alexfneves/control-orogen-auv_control
+    branch: adding_parallel_pid_settings
